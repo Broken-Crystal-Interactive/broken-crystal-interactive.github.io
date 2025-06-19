@@ -3,9 +3,46 @@ body {
 }
 .container {
     background: white;
-    max-width: 800px;
+    max-width: 70vw;
     min-height: 100vh;
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 10px;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: black;
+    background: white;
+}
+h1.brand {
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 20px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 20px;
+}
+.content {
+    padding: 20px;
+    margin-top: 120px; /* Adjust for fixed header */
+    margin-bottom: 80px; /* Adjust for fixed footer */
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 20px;
 }
